@@ -16,10 +16,10 @@ interface NavItem {
 
 export const navItems: NavItem[] = [
     { name: "Accueil", link: "/", icon: FaHome },
-    { name: "Présentation", link: "/", icon: SiHey },
-    { name: "Projets", link: "/", icon: GoProjectSymlink },
-    { name: "Extra", link: "/", icon: TbMusicShare },
-    { name: "Contact", link: "/", icon: LuMessageSquare },
+    { name: "Présentation", link: "#about", icon: SiHey },
+    { name: "Projets", link: "#recent-projects", icon: GoProjectSymlink },
+    { name: "Extra", link: "#Extra", icon: TbMusicShare },
+    { name: "Contact", link: "#Contact", icon: LuMessageSquare },
 ];
 
 

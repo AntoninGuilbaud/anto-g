@@ -55,7 +55,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='pt-24 relative z-20'>
+        <div className='pt-24 relative z-20' id='Contact'>
             <h1 className="heading text-center text-3xl md:text-4xl font-bold text-gray-800 dark:text-white px-4 pb-14">
                 Pour me
                 <span className="text-blue-300"> contacter</span>

@@ -3,7 +3,7 @@ import { HeroScrollDemo } from './ui/ScrollEffect'
 
 const Extra = () => {
     return (
-        <div>
+        <div id='Extra'>
             <HeroScrollDemo />
         </div>
     )
