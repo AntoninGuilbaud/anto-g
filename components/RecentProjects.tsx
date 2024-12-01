@@ -4,7 +4,7 @@ import { ThreeDCardDemo } from "./ui/Carddd";
 
 const RecentProjects = () => {
     return (
-        <div className="py-20" id="recent-projects">
+        <div className="py-20" id="projects">
             <h1 className="heading text-center text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-12 px-4">
                 Retrouver l&apos;ensemble de mes
                 <span className="text-blue-300"> projets</span>

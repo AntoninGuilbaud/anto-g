@@ -18,7 +18,7 @@ const Hero = () => {
     }, []);
 
     const scrollToProjects = () => {
-        const projectsSection = document.getElementById("recent-projects");
+        const projectsSection = document.getElementById("projects");
         if (projectsSection) {
             projectsSection.scrollIntoView({ behavior: "smooth" });
         }

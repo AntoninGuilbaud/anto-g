@@ -17,9 +17,9 @@ interface NavItem {
 export const navItems: NavItem[] = [
     { name: "Accueil", link: "/", icon: FaHome },
     { name: "Présentation", link: "#about", icon: SiHey },
-    { name: "Projets", link: "#recent-projects", icon: GoProjectSymlink },
-    { name: "Extra", link: "#Extra", icon: TbMusicShare },
-    { name: "Contact", link: "#Contact", icon: LuMessageSquare },
+    { name: "Projets", link: "#projects", icon: GoProjectSymlink },
+    { name: "Extra", link: "#extra", icon: TbMusicShare },
+    { name: "Contact", link: "#contact", icon: LuMessageSquare },
 ];
 
 
