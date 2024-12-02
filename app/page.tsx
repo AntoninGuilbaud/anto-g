@@ -17,13 +17,27 @@ export default function Home() {
     overflow-hidden max-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full ">
         <FloatingNav navItems={navItems} />
-        <Hero />
-        <Grid />
-        <RecentProjects />
-        <Extra />
-        <Sport />
-        <Work />
-        <Contact />
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="grid">
+          <Grid />
+        </section>
+        <section id="recent-projects">
+          <RecentProjects />
+        </section>
+        <section id="extra">
+          <Extra />
+        </section>
+        <section id="sport">
+          <Sport />
+        </section>
+        <section id="work">
+          <Work />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
         <Footer />
       </div>
     </main>

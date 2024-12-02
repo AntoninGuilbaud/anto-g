@@ -68,7 +68,6 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
                     <Link
                         key={`link=${idx}`}
                         href={navItem.link}
-                        scroll={false} // Ajoutez cet attribut ici
                         className={cn(
                             "relative dark:text-neutral-50 items-center flex text-neutral-600 hover:text-blue-300 dark:hover:text-blue-300",
                             navItem.name === "Contact"
