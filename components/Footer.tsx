@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
-            <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10">
+            <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10 gap-4">
                 <p className="md:text-base text-sm md:font-normal font-light">
                     Copyright © 2024 par Antonin Guilbaud
                 </p>

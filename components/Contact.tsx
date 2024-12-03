@@ -62,9 +62,10 @@ const Contact = () => {
             </h1>
             <form
                 onSubmit={submitForm}
-                className="max-w-md mx-auto mt-0 p-4 rounded-lg border border-white bg-black"
+                className="flex justify-center flex-col sm:mx-auto mx-5 p-4 rounded-lg border border-white bg-black max-w-[400px]"
+
             >
-                <div className="mb-4 ">
+                <div className="mb-4">
                     <label
                         className="block text-white text-sm font-bold mb-2"
                         htmlFor="name"
