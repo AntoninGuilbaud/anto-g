@@ -62,7 +62,7 @@ const Contact = () => {
             </h1>
             <form
                 onSubmit={submitForm}
-                className="flex justify-center flex-col sm:mx-auto mx-5 p-4 rounded-lg border border-white bg-black max-w-[400px]"
+                className="flex justify-center items-center flex-col sm:mx-auto mx-5 p-4 rounded-lg border border-white bg-black max-w-[400px] sm:w-full md:w-1/2"
 
             >
                 <div className="mb-4">

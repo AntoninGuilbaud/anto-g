@@ -36,7 +36,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Passioné par le développement web",
+        title: "Passionné par le développement web",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
