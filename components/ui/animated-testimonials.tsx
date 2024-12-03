@@ -118,7 +118,7 @@ export const AnimatedTestimonials = ({
                         <p className="text-sm text-gray-500 dark:text-neutral-500">
                             {testimonials[active].designation}
                         </p>
-                        <motion.p className="text-lg text-gray-500 mt-8 dark:text-neutral-300">
+                        <motion.p className="text-base md:text-lg text-gray-500 mt-4 dark:text-neutral-300">
                             {testimonials[active].quote.split(" ").map((word, index) => (
                                 <motion.span
                                     key={index}
@@ -144,7 +144,7 @@ export const AnimatedTestimonials = ({
                             ))}
                         </motion.p>
                     </motion.div>
-                    <div className="flex gap-4 pt-12 md:pt-0">
+                    <div className="flex gap-4 pt-4">
                         <button
                             onClick={handlePrev}
                             className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button"
