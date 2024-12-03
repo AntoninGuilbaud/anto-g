@@ -3,18 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <footer className="w-full pt-20 pb-10 relative z-10" id="contact">
-            {/* background grid */}
-            <div className="w-full absolute left-0 -bottom-72 min-h-40 z-0">
-                <Image
-                    src="/footer-grid.svg"
-                    alt="grid"
-                    layout="fill"
-                    objectFit="cover"
-                    className="opacity-60"
-                />
-            </div>
-
+        <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
             <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10">
                 <p className="md:text-base text-sm md:font-normal font-light">
                     Copyright © 2024 par Antonin Guilbaud

@@ -68,7 +68,7 @@ export const BentoGridItem = ({
             >
                 <div
                     className={cn(
-                        "font-sans font-bold text-lg text-neutral-600 dark:text-neutral-200",
+                        "font-sans font-bold text-xl text-neutral-600 dark:text-neutral-200",
                         id !== 3 ? "mb-2 mt-2" : ""
                     )}
                 >

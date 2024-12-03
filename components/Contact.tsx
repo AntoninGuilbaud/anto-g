@@ -55,17 +55,16 @@ const Contact = () => {
     };
 
     return (
-        <div className='pt-24 relative z-20' id='contact'>
-            <h1 className="heading text-center text-3xl md:text-4xl font-bold text-gray-800 dark:text-white px-4 pb-14">
+        <div className='py-24 relative z-20' id='contact'>
+            <h1 className="heading text-center text-4xl md:text-5xl font-bold text-gray-800 dark:text-white px-4 pb-14">
                 Pour me
                 <span className="text-blue-300"> contacter</span>
             </h1>
             <form
                 onSubmit={submitForm}
-                className="max-w-md mx-auto mt-0 p-4 dark:bg-[#1f1f1f] rounded-lg shadow-md dark:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.3)]
-                transition-all dark:hover:shadow-blue-300"
+                className="max-w-md mx-auto mt-0 p-4 rounded-lg border border-white bg-black"
             >
-                <div className="mb-4">
+                <div className="mb-4 ">
                     <label
                         className="block text-white text-sm font-bold mb-2"
                         htmlFor="name"

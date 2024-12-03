@@ -89,11 +89,3 @@
         background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
     }
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-section {
-    margin-top: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre navbar */
-}
