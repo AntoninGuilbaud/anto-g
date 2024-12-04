@@ -49,13 +49,13 @@ export function DrawerDemo({ buttonText }: { buttonText: string }) {
                 <Button variant="outline">{buttonText}</Button>
             </DrawerTrigger>
             <DrawerContent>
-                <div className="mx-auto w-full max-w-sm">
+                <div className="flex flex-col justify-center p-6">
                     <DrawerHeader>
                         <DrawerTitle>Tous droits réservés</DrawerTitle>
                         <DrawerDescription>© by Antonin Guilbaud</DrawerDescription>
                     </DrawerHeader>
                     <div>
-                        <p className="mx-auto">
+                        <p className="">
                             Ce site est entièrement conçu et maintenu par Antonin Guilbaud. Toutes les informations présentes sur ce site, y compris les textes, images, et contenus graphiques, sont protégées par les droits d'auteur et ne peuvent être reproduites, copiées ou redistribuées sans autorisation préalable. <br /><br />
 
                             Aucune donnée personnelle n'est collectée ni stockée via ce site. Les informations saisies dans le formulaire sont utilisées uniquement à des fins de communication entre vous et moi et ne sont pas conservées. <br /><br />
