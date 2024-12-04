@@ -62,12 +62,12 @@ const Contact = () => {
             </h1>
             <form
                 onSubmit={submitForm}
-                className="flex justify-center flex-col sm:mx-auto mx-5 p-4 rounded-lg border border-white bg-black max-w-[400px]"
+                className="flex justify-center flex-col sm:mx-auto mx-5 p-4 rounded-2xl border border-white bg-black max-w-[500px]"
 
             >
                 <div className="mb-4">
                     <label
-                        className="block text-white text-sm font-bold mb-2"
+                        className="block text-white text-base font-bold mb-2"
                         htmlFor="name"
                     >
                         Nom
@@ -78,14 +78,14 @@ const Contact = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
+                        className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
                         required
                         placeholder='Exemple: Dupont'
                     />
                 </div>
                 <div className="mb-4">
                     <label
-                        className="block text-white text-sm font-bold mb-2"
+                        className="block text-white text-base font-bold mb-2"
                         htmlFor="email"
                     >
                         Email
@@ -96,14 +96,14 @@ const Contact = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
+                        className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
                         required
                         placeholder="Exemple: mail@gmail.com"
                     />
                 </div>
                 <div className="mb-4">
                     <label
-                        className="block text-white text-sm font-bold mb-2"
+                        className="block text-white text-base font-bold mb-2"
                         htmlFor="message"
                     >
                         Message
@@ -113,7 +113,7 @@ const Contact = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
+                        className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 dark:text-gray-300 leading-tight focus:outline-none focus:shadow-outline focus:border-white"
                         required
                         placeholder="Votre message..."
                     ></textarea>
