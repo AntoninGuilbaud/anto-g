@@ -1,12 +1,17 @@
 import { socialMedia } from "@/data";
 import Image from "next/image";
+import { DrawerDemo } from "./ui/ButtonDrawer";
 
 const Footer = () => {
     return (
         <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
-            <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10 gap-4">
+            <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10 gap-7">
+                <DrawerDemo buttonText="© Tous droits réservés" />
+
+
+
                 <p className="md:text-base text-sm md:font-normal font-light">
-                    Copyright © 2024 par Antonin Guilbaud
+                    - Antonin Guilbaud -
                 </p>
 
                 <div className="flex items-center md:gap-3 gap-6">

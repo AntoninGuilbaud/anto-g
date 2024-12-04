@@ -6,6 +6,10 @@ import { TbMusicShare } from "react-icons/tb";
 import { LuMessageSquare } from "react-icons/lu";
 import { IoLogoFirebase } from "react-icons/io5";
 import { BsFiletypeSql } from "react-icons/bs";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { DiMongodb } from "react-icons/di";
+
+
 
 
 interface NavItem {
@@ -59,15 +63,24 @@ export const gridItems = [
 export const recentprojects = [
     {
         id: 1,
-        title: "Musevag",
-        des: "Développement d'une application web visant à mettre en avant le patrimoine culturel de France.",
-        img: "/musevag-main.png",
-        link: "/underconstruction",
-        icons: [FaReact, FaNodeJs, FaJs],
+        title: "Finanto",
+        des: "Développement d'une application web qui permet de gérer ses dépenses du mois et d'envoyer un recap à la personne de votre choix.",
+        img: "/Finanto.png",
+        link: "https://finanto-209ed.web.app/",
+        icons: [FaReact, FaNodeJs, FaJs, IoLogoFirebase, RiTailwindCssFill],
         gp: 7,
     },
     {
         id: 2,
+        title: "Musevag",
+        des: "Développement d'une application web visant à mettre en avant le patrimoine culturel de France.",
+        img: "/musevag-main.png",
+        link: "/underconstruction",
+        icons: [FaReact, FaNodeJs, FaJs, RiTailwindCssFill, DiMongodb],
+        gp: 7,
+    },
+    {
+        id: 3,
         title: "Wed'Dreamer",
         des: "Dans le cadre de mon BUT informatique, j'ai développé une application lourde dédiée à l’organisation d’événements de mariage.",
         img: "/main-webddreamer.webp",
@@ -76,7 +89,7 @@ export const recentprojects = [
         gp: 5,
     },
     {
-        id: 3,
+        id: 4,
         title: "S.Guilbaud",
         des: "Pour ce projet, j’ai développé un site web pour une professeure de musique de collège, Sophie Guilbaud, afin de mettre en valeur ses activités.",
         img: "/main-sguilbaud.webp",
@@ -85,7 +98,7 @@ export const recentprojects = [
         gp: 1,
     },
     {
-        id: 4,
+        id: 5,
         title: "BDD Nutriscore",
         des: "Dans ce projet, nous avons exploité une base de données open source contenant des milliers de produits classés par Nutri-Score, pays d'origine, catégorie, etc.",
         img: "/main-bdd-nutriscore.webp",
