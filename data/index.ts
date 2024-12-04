@@ -8,8 +8,8 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { BsFiletypeSql } from "react-icons/bs";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiMongodb } from "react-icons/di";
-
-
+import { FaSpotify } from "react-icons/fa";
+import { MdQueueMusic } from "react-icons/md";
 
 
 interface NavItem {
@@ -68,7 +68,7 @@ export const recentprojects = [
         img: "/Finanto.png",
         link: "https://finanto-209ed.web.app/",
         icons: [FaReact, FaNodeJs, FaJs, IoLogoFirebase, RiTailwindCssFill],
-        gp: 7,
+        gp: 1,
     },
     {
         id: 2,
@@ -105,6 +105,15 @@ export const recentprojects = [
         link: "https://github.com/AntoninGuilbaud/SAE1.04",
         icons: [FaDatabase, SiPostgresql, BsFiletypeSql],
         gp: 2,
+    },
+    {
+        id: 6,
+        title: "5 Singles",
+        des: "La playlist regroupe cinq morceaux que j’ai produits, enregistrés, mixés, et masterisés moi-même, publiés chacun à une semaine d’intervalle. Dans un style cloud rap sad, j'ai porté une attention particulière à la qualité de production.",
+        img: "/5singles.png",
+        link: "https://open.spotify.com/playlist/6iSxYOcwWjO0MAhZl3eJSS?si=Bvpn3FxuTFWTNlf6037r3g",
+        icons: [FaSpotify, MdQueueMusic],
+        gp: 1,
     },
 ];
 
