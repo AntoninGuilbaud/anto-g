@@ -54,7 +54,7 @@ const Hero = () => {
                         className={`text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'
                             }`}
                     >
-                        Hey, je m&apos;appelle Antonin. Je suis étudiant en Informatique à Grenoble.
+                        Je m&apos;appelle Antonin. Je suis étudiant en Informatique à Grenoble.
                     </p>
                     <a onClick={scrollToProjects} className='flex items-center justify-center'>
                         <ShimmerButton

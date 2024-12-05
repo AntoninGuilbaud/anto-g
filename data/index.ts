@@ -64,7 +64,7 @@ export const recentprojects = [
     {
         id: 1,
         title: "Finanto",
-        des: "Développement d'une application web qui permet de gérer ses dépenses du mois et d'envoyer un recap à la personne de votre choix.",
+        des: "Développement d'une application web qui permet de gérer ses dépenses du mois et d'envoyer un total à la personne de votre choix.",
         img: "/Finanto.png",
         link: "https://finanto-209ed.web.app/",
         icons: [FaReact, FaNodeJs, FaJs, IoLogoFirebase, RiTailwindCssFill],

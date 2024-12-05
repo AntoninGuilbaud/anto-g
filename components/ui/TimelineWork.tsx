@@ -75,7 +75,7 @@ export function TimelineDemo() {
                             <h3 className="text-lg font-bold">Ambassadeur Asics
                             </h3>
                             <p className="text-neutral-800 dark:text-neutral-200 text-sm">
-                                Vendeur expert running pour Puma, j&apos;ai conseillé les clients chez Intersport durant 8 samedis, en offrant un accueil personnalisé et des recommandations adaptées à leurs besoins.
+                                Vendeur expert running pour Asics, j&apos;ai conseillé les clients chez Intersport durant 8 samedis, en offrant un accueil personnalisé et des recommandations adaptées à leurs besoins.
                             </p>
                             <p className="text-neutral-500 dark:text-neutral-400 text-xs">
                                 Mars - Mai
